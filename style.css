@@ -93,6 +93,15 @@ nav {
   transition: 300ms;
 }
 
+.nav__link--anchor-primary-clicked {
+    background-color: #9dbcbc;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+    transition: 300ms;
+    /* to let viewers know you are on a particular page */
+  }
+
 .nav__link--anchor-primary:hover {
   background-color: #014340;
 }
