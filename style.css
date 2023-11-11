@@ -307,6 +307,19 @@ nav {
   text-align: left;
   color: white;
 }
+/* Contact */
+
+.form__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.form {
+}
+
+
 
  /* Footer */
 
