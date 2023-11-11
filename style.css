@@ -231,7 +231,7 @@ nav {
 
 .blog {
   display: flex;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
   justify-content: center;
 }
 
@@ -306,4 +306,44 @@ nav {
 .blog__description--link {
   text-align: left;
   color: white;
+}
+
+ /* Footer */
+
+footer {
+  background-color: black;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__social--list {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 28px;
+}
+
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4% 0;
+}
+
+.footer__logo--img {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  /* box-shadow: 0 2px 8px #006661; */
+}
+
+.footer__social--link,
+.footer__copyright {
+color: white;
 }
