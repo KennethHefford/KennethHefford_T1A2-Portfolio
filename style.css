@@ -245,7 +245,7 @@ nav {
   border-radius: 20px;
   overflow: hidden;
   position: relative;
-  max-width: 80%;
+  max-height: 360px;
 }
 
 .blog__wrapper:before {
@@ -359,6 +359,21 @@ textarea {
 
 .send__button:hover {
   background-color: #014340;
+}
+
+/* Blog Post */
+
+.blogpost__img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.blogpost__img--wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  
+
 }
 
 /* Footer */
