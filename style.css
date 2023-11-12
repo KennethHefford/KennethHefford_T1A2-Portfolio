@@ -259,7 +259,6 @@ nav {
   opacity: 0;
   transition: all 450ms ease;
   z-index: 2;
-
 }
 .blog:hover .blog__wrapper:before {
   transform: translateY(0);
@@ -275,7 +274,6 @@ nav {
   transform: translateY(-50%);
 }
 
-
 .blog__list {
   padding-top: 40px;
 }
@@ -283,7 +281,7 @@ nav {
 .blog__description {
   position: absolute;
   top: 50%;
-  left: 60px;
+  left: 30px;
   transform: translateY(-50%);
   max-width: 550px;
   z-index: 3;
@@ -296,9 +294,8 @@ nav {
 }
 
 .blog__description--para {
-  margin:  16px 0;
+  margin: 16px 0;
 }
-
 
 .blog__description--title,
 .blog__description--sub-title,
@@ -309,19 +306,62 @@ nav {
 }
 /* Contact */
 
+.form {
+  font-size: 18px;
+}
+
 .form__wrapper {
   display: flex;
-  align-items: center;
   justify-content: center;
-
+  width: 100%;
 }
 
-.form {
+.form__list {
+  width: 100%;
 }
 
+.name {
+  display: flex;
+  flex-direction: column;
+}
 
+.email {
+  display: flex;
+  flex-direction: column;
+}
 
- /* Footer */
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+}
+
+.send__button--wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.send__button {
+  font-size: 16px;
+  font-weight: 700;
+  width: 20%;
+  background-color: #006661;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: white;
+  border: none;
+  transition: 300ms;
+}
+
+.send__button:hover {
+  background-color: #014340;
+}
+
+/* Footer */
 
 footer {
   background-color: black;
@@ -358,5 +398,5 @@ footer {
 
 .footer__social--link,
 .footer__copyright {
-color: white;
+  color: white;
 }
