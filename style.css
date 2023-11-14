@@ -314,10 +314,9 @@ nav {
   background-color: black;
   opacity: 0;
   transition: all 450ms ease;
-  z-index: 2;    
+  z-index: 2;
   /* change order of operation */
 }
-
 
 /* make the img go dark */
 .blog:hover .blog__wrapper:before {
@@ -376,7 +375,7 @@ nav {
   color: white;
 }
 /* Contact */
- /* 
+/* 
  form font */
 .form {
   font-size: 18px;
@@ -530,7 +529,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-  } 
+  }
   /* to fix the background of the buttons overlapping when smaller screen */
 
   .blog__description--sub-title {
@@ -546,13 +545,12 @@ footer {
 /* Smaller Phones */
 
 @media (max-width: 480px) {
-
   .nav__link:first-child {
     display: none;
-  } 
+  }
   /* get rid of home button */
 
-  .nav__link--list{
+  .nav__link--list {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -560,8 +558,9 @@ footer {
   /* change orientation of nav links to columb */
 
   .link__hover-effect--black:after {
-        display: none;}
-/* remove underline on hover for nav bar */
+    display: none;
+  }
+  /* remove underline on hover for nav bar */
   .blog__description--para {
     display: none;
   }
@@ -574,8 +573,8 @@ footer {
   .blog__description--title {
     display: absolute;
   }
-  
-/* aligning the text to the center of the img */
+
+  /* aligning the text to the center of the img */
   .blog__description--title {
     text-align: center;
     font-size: 32px;
